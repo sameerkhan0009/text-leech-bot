@@ -7,7 +7,6 @@ import asyncio
 import requests
 import subprocess
 import pytube
-import yt_dlp
 
 import core as helper
 from utils import progress_bar
@@ -16,6 +15,7 @@ from aiohttp import ClientSession
 from pyromod import listen
 from subprocess import getstatusoutput
 from aiohttp import web
+from yt-dlp import cookies.txt
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
