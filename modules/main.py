@@ -6,7 +6,8 @@ import time
 import asyncio
 import requests
 import subprocess
-import pytube 
+import pytube
+import yt_dlp
 
 import core as helper
 from utils import progress_bar
