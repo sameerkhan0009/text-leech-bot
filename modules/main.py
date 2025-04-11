@@ -18,6 +18,7 @@ from subprocess import getstatusoutput
 from aiohttp import web
 from yt_dlp import YoutubeDL
 import yt_dlp as youtube_dl
+from pytube import YouTube
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
