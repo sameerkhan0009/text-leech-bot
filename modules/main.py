@@ -16,6 +16,8 @@ from aiohttp import ClientSession
 from pyromod import listen
 from subprocess import getstatusoutput
 from aiohttp import web
+from yt_dlp import YoutubeDL
+import yt_dlp as youtube_dl
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
